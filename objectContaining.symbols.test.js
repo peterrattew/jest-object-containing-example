@@ -6,6 +6,6 @@ it('symbol: objectContaining should fail', () => {
   expect(obj).toEqual(expect.objectContaining({ [bar]: 'bar' }));
 });
 
-it('symbol: objectNotContaing should pass', () => {
+it('symbol: objectNotContaining should pass', () => {
   expect(obj).toEqual(expect.not.objectContaining({ [bar]: 'bar' }));
 });
